@@ -1,11 +1,10 @@
-<<<<<<< HEAD
 # uas-dsp
 =======
 # DSP Project
 
 ## Deskripsi
 
-Proyek ini adalah aplikasi Flask untuk Digital Signal Processing.
+Proyek ini adalah aplikasi Flask untuk Klasifikasi jamur berdasarkan genus dan edibility
 
 ## Persyaratan
 
@@ -64,5 +63,3 @@ dsp/
     ├── base.html
     ├── home.html
     └── dashboard_view.html
-```
->>>>>>> 3037a8f (commit projek)
