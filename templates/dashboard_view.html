@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+<h2>Dashboard Sistem</h2>
+
+<div class="card">
+    <h3>Arsitektur Model</h3>
+    <ul>
+        <li>SVM untuk klasifikasi genus</li>
+        <li>KNN untuk klasifikasi edibility</li>
+        <li>Feature Extraction: HSV + HOG</li>
+    </ul>
+</div>
+
+<div class="card">
+    <h3>Fokus Keamanan</h3>
+    <p class="warning">
+        Sistem dirancang untuk meminimalkan kesalahan false-edible.
+    </p>
+</div>
+
+<a href="/predict" class="btn">Coba Prediksi</a>
+{% endblock %}

@@ -1,0 +1,75 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Local env vars
+.env
+
+# IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python packaging
+dist/
+build/
+*.egg-info/
+
+# Byte-compiled / optimized
+__pycache__/
+
+# Flask uploads and user data
+static/uploads/
+
+# Large model artifacts (keep if you need to push models explicitly)
+models/
+
+# Sample dataset (do not push large datasets)
+Sample Dataset/
+
+# caches
+.pytest_cache/
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment variables
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Cache
+.pytest_cache/
+.coverage
+htmlcov/

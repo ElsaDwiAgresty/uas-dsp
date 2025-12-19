@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}Hasil Prediksi{% endblock %}
+
+{% block content %}
+<h2>Hasil Prediksi</h2>
+
+<img src="{{ url_for('static', filename='uploads/' + image) }}">
+
+<p><strong>Genus:</strong> {{ genus }}</p>
+
+{% if edibility == "Poisonous" %}
+<p class="warning">⚠️ EDIBILITY: POISONOUS</p>
+{% else %}
+<p class="success">✔️ EDIBILITY: EDIBLE</p>
+{% endif %}
+
+<a href="/predict" class="btn">Prediksi Gambar Lain</a>
+{% endblock %}
